@@ -1,11 +1,16 @@
 # IKumo
 
-POC of getting all Apple devices with data such as: Device Name, Device Model, Battery % and Location (Google Map URL)
-The only requirement is: having an Apple ID and Password (No 2FA required even if is enable on the account)
+POC of getting all Apple devices asociated with an account.
+It will return data such as: Device Name, Device Model, Battery % and Location (Google Map URL)
 
-example of usage: 
-Single Password:
+P.S: Even if 2FA is activated on the account, it will be displaying the data.
+
+## Single Password:
+```bash
 python3 i-kumo.py --appleid example@mail.com --password Password123
+```
 
-Dictionary:
+## Dictionary:
+```bash
 python3 i-kumo.py --appleid example@mail.com --password-list dictionary.txt
+```
