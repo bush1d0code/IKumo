@@ -4,6 +4,7 @@ POC of getting all Apple devices asociated with an account.
 It will return data such as: Device Name, Device Model, Battery % and Location (Google Map URL)
 
 P.S: Even if 2FA is activated on the account, it still will be displaying the data.
+P.S: Be aware, after several intents against an account, trying incorrect passwords, will result on a blocked Apple account, where the user will need to change the password.
 
 ## Single Password:
 ```bash
